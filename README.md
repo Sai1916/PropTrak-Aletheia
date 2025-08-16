@@ -1,70 +1,53 @@
-# React + TypeScript + Vite
+# 🏡 PropTrak-Aletheia: Unveiling Property Truth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![PropTrak-Aletheia Preview Image](https://proptrak.ai/static/media/proptrak_logo.b99050ffa366983704f8.png)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Installation Guide
 
-## Expanding the ESLint configuration
+Follow these steps to get PropTrak-Aletheia up and running on your local machine.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Ensure you have Node.js (which includes npm) or Yarn installed on your system.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+*   **Node.js**: [Download & Install Node.js](https://nodejs.org/en/download/)
+*   **Yarn** (Optional): `npm install -g yarn`
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Step-by-Step Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1.  **Clone the Repository:**
+    Clone the PropTrak-Aletheia repository to your local machine using Git:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+    ```sh
+    git clone https://github.com/Sai1916/PropTrak-Aletheia.git
+    ```
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2.  **Navigate to the Project Directory:**
+    Change into the newly created project directory:
+
+    ```sh
+    cd PropTrak-Aletheia
+    ```
+
+3.  **Install Dependencies:**
+    Install all the required project dependencies using npm or Yarn:
+
+    ```sh
+    npm install
+    # OR
+    yarn install
+    ```
+
+4.  **Start the Development Server:**
+    Once dependencies are installed, you can start the development server:
+
+    ```sh
+    npm run dev
+    # OR
+    yarn dev
+    ```
+
+    The application will typically be accessible at `http://localhost:5173` (or another port if 5173 is in use).
+
 
