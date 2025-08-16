@@ -1,4 +1,4 @@
-# 🏡 PropTrak-Aletheia: Unveiling Property Truth
+# 🏡 PropTrak by Aletheia Technologies
 
 ![PropTrak-Aletheia Preview Image](https://proptrak.ai/static/media/proptrak_logo.b99050ffa366983704f8.png)
 
