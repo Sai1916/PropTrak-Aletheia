@@ -1,0 +1,35 @@
+.property_type{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    /* gap: 1px; */
+}
+.property_type_title{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.property_type_options{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.property_type_option{
+    margin: 0;
+    padding: 2px 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.property_type_checkbox{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border: 2px solid #000;
+}
+.property_type_text{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    margin: 0;
+}

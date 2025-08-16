@@ -1,0 +1,75 @@
+.property_card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px 10px 40px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.property_card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.property_image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.property_details {
+    margin-top: 10px;
+}
+
+.property_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.property_location {
+    font-size: 16px;
+    color: #1d1e20;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.property_stats{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.property_data {
+    font-size: 14px;
+    color: #1d1e20;
+    margin: 0;
+}
+.btns {
+    display: flex;
+    margin: 16px 0;
+    gap: 16px;
+}
+.btn{
+    border: 2px solid #121b41;
+    color: #000;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn.manage {
+    background-color: #121b41;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #177cff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}

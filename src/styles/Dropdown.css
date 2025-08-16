@@ -1,0 +1,13 @@
+.filter_dropdown {
+  width: 140px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.filter_option {
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+}

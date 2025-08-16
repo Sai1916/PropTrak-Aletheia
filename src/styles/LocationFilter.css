@@ -1,0 +1,17 @@
+.location_filter{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.location_filter_title{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+.state_filter, .city_filter{
+    margin-bottom: 10px;
+}
+.state_filter_label, .city_filter_label{
+    font-size: 15px;
+    margin: 0 0 5px 0;
+}
